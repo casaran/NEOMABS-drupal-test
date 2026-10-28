@@ -902,3 +902,11 @@ $databases['default']['default'] = array (
   'autoload' => 'core/modules/mysql/src/Driver/Database/mysql/',
 );
 $settings['config_sync_directory'] = 'sites/default/files/config_n3skDIFxwZRfYf3F4YL-fLlkSYhypIesukrYjvWRz6FquS_A5SSxKsvPEFNWFLdeif6Q6KjsFw/sync';
+
+// Automatically generated include for settings managed by ddev.
+$ddev_settings = __DIR__ . '/settings.ddev.php';
+if (getenv('IS_DDEV_PROJECT') == 'true' && is_readable($ddev_settings)) {
+  require $ddev_settings;
+}
+
+require __DIR__ . '/settings.local.php';

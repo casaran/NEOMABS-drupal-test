@@ -1,0 +1,4 @@
+services:
+  content_stats.service:
+    class: Drupal\content_stats\StatsService
+    arguments: ['@entity_type.manager']

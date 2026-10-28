@@ -184,9 +184,3 @@ AddEncoding gzip svgz
   # Disable Proxy header, since it's an attack vector.
   RequestHeader unset Proxy
 </IfModule>
-RewriteEngine On
-
-RewriteCond %{SERVER_PORT} 80
-RewriteRule ^(.*)$ https://test.neoma-bs.fr/$1 [L,R=301]
-
-

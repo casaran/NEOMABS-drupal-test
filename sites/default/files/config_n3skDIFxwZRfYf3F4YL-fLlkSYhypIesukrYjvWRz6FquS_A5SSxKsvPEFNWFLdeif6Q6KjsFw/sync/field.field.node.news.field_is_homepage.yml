@@ -1,0 +1,21 @@
+uuid: b7dc632e-f746-4e73-9f55-c3eccfef5277
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_is_homepage
+    - node.type.news
+id: node.news.field_is_homepage
+field_name: field_is_homepage
+entity_type: node
+bundle: news
+label: Homepage
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

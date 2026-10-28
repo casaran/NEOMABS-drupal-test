@@ -1,0 +1,7 @@
+content_stats.stats_controller:
+  path: '/admin/content/stats'
+  defaults:
+    _controller: '\Drupal\content_stats\Controller\StatsController::build'
+    _title: 'Content Stats'
+  requirements:
+    _permission: 'access content overview'

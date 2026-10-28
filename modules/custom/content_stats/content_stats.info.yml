@@ -1,0 +1,4 @@
+name: 'Content Stats'
+type: module
+description: 'Display stats about website content'
+core_version_requirement: ^10.0

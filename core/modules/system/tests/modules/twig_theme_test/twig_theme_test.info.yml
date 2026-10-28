@@ -2,9 +2,4 @@ name: 'Twig theme test'
 type: module
 description: 'Support module for Twig theme system testing.'
 package: Testing
-# version: VERSION
-
-# Information added by Drupal.org packaging script on 2024-01-05
-version: '10.2.1'
-project: 'drupal'
-datestamp: 1704448245
+version: VERSION

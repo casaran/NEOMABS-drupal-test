@@ -1,0 +1,5 @@
+content_stats.page:
+  title: 'Content Stats'
+  route_name: content_stats.stats_controller
+  base_route: system.admin_content
+  weight: 10
